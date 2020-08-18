@@ -9,5 +9,6 @@ server/node_modules/
 client/node_modules/
 
 # dotenv and credential file
+client/.env
 server/.env
 server/google_credential.json
