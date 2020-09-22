@@ -126,6 +126,7 @@ class Upload extends Component {
             };
             for (index = 0; index < this.state.file.length; index++) {
                 formData.append('myImage', this.state.file[index]);
+                console.log(formData);
             }
             try {
                 await axios
